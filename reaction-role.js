@@ -18,7 +18,7 @@ client.on('message', async message => {
 			const user = reaction.users.last();
 			const guild = reaction.message.guild;
 			const member = guild.member(user) || await guild.fetchMember(user);
-			member.addRole('468548755868745738');
+			member.addRole('OWN ROLE ID HERE');
 		});
 	}
 });
